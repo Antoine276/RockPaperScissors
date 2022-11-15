@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Page Title</title>
+
+		<style>
+		
+		#Title {
+			color: blue;
+		}
+
+		#Res {
+			font-weight: bold;
+			font-size: large;
+		}
+
+		button {
+			display: inline-block;
+			height: 134px;
+			padding: 0;
+			margin: 0;
+			vertical-align: top;
+			width: 104px;
+		}
+
+		#rock {
+			background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Logan_Rock_Treen_closeup.jpg/1200px-Logan_Rock_Treen_closeup.jpg");
+			background-size: 100px 130px;
+			height: 134px;  
+			width: 104px;
+		}
+
+		#paper {
+			background-image: url("https://www.relyco.com/wp-content/uploads/2019/10/Syn_Tridura_1_ALT.jpg");
+			background-size: 100px 130px;
+			height: 134px;  
+			width: 104px;
+		}
+
+		#scissors {
+			background-image: url("https://cdn.shopify.com/s/files/1/0635/4468/8866/products/10545_ead30520-5104-48c6-80db-c1b55d872945.jpg?v=1660658451");
+			background-size: 100px 130px;
+			height: 134px;  
+			width: 104px;
+		}
+
+		#reset {
+			background-image: url("https://st.depositphotos.com/1008768/4188/i/950/depositphotos_41886983-stock-photo-reset-button.jpg");
+			background-size: 100px 130px;
+			height: 134px;  
+			width: 104px;
+			margin-left: 10%;
+		}
+
+		#userimage {
+			height: 134px;
+			display: inline;
+			margin-left: 30%;
+		}
+
+		#computerimage {
+			height: 134px;
+			display: inline;
+		}
+
+		.selection {
+			height: 134px;
+			width: 104px;
+			display: inline;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<h1 id="Title">Rock, Paper, Scissors</h1>
+
+		<h1 id="GameAnnouncement">Game number 1 !</h1>
+		<h2>Choose your fighter :</h2>
+
+		<button id="rock"></button>
+		<button id="paper"></button>
+		<button id="scissors"></button>
+		<button id="reset"></button>
+
+		<p>
+			<img id="userimage", src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/q3V3Xe3.jpg">
+			<img id="userchoice", class="selection">
+			<img id="computerchoice", class="selection">
+			<img id="computerimage", src="https://cdn.britannica.com/77/170477-050-1C747EE3/Laptop-computer.jpg">
+		</p>
+
+		<h1>Results :</h1>
+		<p id="Res"></p>
+		
+		<script src="rockpaperscissors2.js"></script>
+	</body>
+</html>
